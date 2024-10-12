@@ -11,6 +11,7 @@ MAPPING = {
     '판교': './res/ninetree_pangyo.json',
     '용산': './res/ninetree_yongsan.json'
 }
+
 with open('./res/prompt_1shot.pickle', 'rb') as f:
     PROMPT = pickle.load(f)
 
